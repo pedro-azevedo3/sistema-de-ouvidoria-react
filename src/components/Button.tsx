@@ -22,7 +22,7 @@ const AnimatedImage: React.FC<{ src: string; alt: string }> = ({ src, alt }) => 
 
 const Buttons: React.FC = () => {
   return (
-    <div className='mx-10 my-4 grid gap-4 grid-cols-2 lg:grid-cols-4'>
+    <div className='mx-10 my-4 grid gap-5 grid-cols-2 lg:grid-cols-4 pb-20'>
       <AnimatedImage src={denounce} alt="Denounce" />
       <AnimatedImage src={praise} alt="Praise" />
       <AnimatedImage src={complaint} alt="Complaint" />
